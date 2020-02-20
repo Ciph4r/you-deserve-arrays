@@ -17,25 +17,24 @@ getIndex3 = (array) => {
 }
 
 isLongList = (array) => {
-  if (array.length >= 10){
-    return true
-  }else {
-    return false
-  }
+  
+  return array.length >= 10 ? true : false
 }
 
 firstItemIsNumber = (array) => {
-  if (typeof array[0] === 'number'){
-    return true 
-  }else {
-    return false
-  } 
+  
+  return typeof array[0] === 'number' ? true :false
+  
 }
 
 secondCharOfThirdString = (array) => {
-  let x = array[2]
-  return x[1]
+  return array[2][1]
 }
+
+
+
+
+
 
  /********************************************
  * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
